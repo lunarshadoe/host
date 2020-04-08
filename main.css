@@ -70,8 +70,10 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible; }
-
-h1, h2, h3, h4, h5, h6 {
+h1, h2{
+  text-align: center important!;
+}
+h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
@@ -297,8 +299,8 @@ template {
 [hidden] {
   display: none !important; }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+ h3, h4, h5, h6,
+ .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", Arial, sans-serif;
   font-weight: 500;
@@ -637,7 +639,8 @@ pre {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 100%; }
+    max-width: 100%;
+    border:1px solid #cecece; }
   .col-sm-auto {
     flex: 0 0 auto;
     width: auto;
@@ -4258,6 +4261,10 @@ button.close {
   padding-bottom: 20px;
   color: #fff;
   text-align: center; }
+
+.align-center {
+  text-align: center !important;
+}
 
 .align-baseline {
   vertical-align: baseline !important; }
