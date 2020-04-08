@@ -639,8 +639,7 @@ pre {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 100%;
-    border:1px solid #cecece; }
+    max-width: 100%;}
   .col-sm-auto {
     flex: 0 0 auto;
     width: auto;
